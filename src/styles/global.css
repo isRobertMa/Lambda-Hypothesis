@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,700&family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Ubuntu';
+  color: black;
+}
+
+html, body {
+  min-height: 100%;
+}
+body {
+  background: radial-gradient(at top left, rgb(252, 93, 130) 0%, rgba(241, 184, 52, 0.945) 100%);
+  background-repeat: no-repeat;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+
+/* layout & nav */
+.layout {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 18px auto;
+}
+nav .links {
+  display: inline-block;
+  text-align: right;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 550;
+  padding-bottom: 0px;
+  border-bottom: 4px solid transparent;
+  color:black;
+}
+nav a:hover {
+  border-color: white;
+}
+nav p{
+  margin-top: 0px;
+  margin-bottom: .25px;
+  font-size: 300%;
+  font-weight: 800em;
+}
+footer p{
+  text-align: center;
+  color: rgb(41, 100, 226);
+  margin: 14px auto;
+}
